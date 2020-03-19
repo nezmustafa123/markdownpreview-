@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.box {
+  display: inline-block;
+  font-family: 'Lato', cursive;
+  font-size: 100%;
+  margin: 2vw;
+  min-height: 75vh;
+  padding-left: 1vw;
+  text-align: left;
+  width: 40%;
+  word-wrap: break-word;
+  border-radius: 10px;
+
+}
+
+.left {
+  background-color: #FFE4E1;
+  float: left;
+  padding-top: 1vw;
+}
+
+textarea {
+  border: none;
+  resize: none;
+}
+
+.right {
+  background-color: #E6E6FA;
+  float: right;
+}
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  padding-bottom: 0.2em;
+  width: 100%;
+}
